@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.3), 
+        rgba(255, 255, 255, 0.6)
+        )
+      ,url(bg.jpg) fixed center no-repeat;
+      background-size: cover;
+      
+}
+
+
+.hamburger{
+    height: 60px;
+    width: 60px;
+    background-color: #00a800;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line{
+    height: 2px;
+    background-color: aliceblue;
+    width: 30px;
+    margin: 2px 0;
+}
+
+.change .hamburger{
+    background-color: antiquewhite;
+}
+.change .line{
+    background-color: aliceblue;
+}
+
+.change .line{
+    background-color: #00a800;
+}
+
+.bg{
+    height: 10px;
+    width: 20px;
+    background-color: #00a82ade;
+    border: none;
+    position: absolute;
+    top: 25px;
+    right: 39px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.change .bg{
+   transform: scale(129.9);
+}
+
+.list{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.item{
+    list-style: none;
+}
+
+.item a{
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: aliceblue;
+    letter-spacing: 3px;
+}
+.item a:hover{
+    position: relative;
+    bottom: 10px;
+}
+
+
+.change .list{
+    visibility: visible;
+}
+
+.change .linn-2
+{
+   visibility: hidden;
+}
+
+.change .linn-1{
+    transform: rotate(44deg) translateY(7px);
+    width: 43px;
+    margin-left: 5px;
+}
+.change .linn-3{
+    transform: rotate(-45deg) translateY(-7px);
+    width: 43px;
+    margin-left: 5px;
+}

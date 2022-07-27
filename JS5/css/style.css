@@ -1,0 +1,26 @@
+body{
+    background-color: mediumvioletred;
+    font-size: 30px;
+    color: aqua;
+}
+.container{
+    display: flex;
+    
+}
+.item{
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    background-color: yellowgreen;
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: #00a800;
+        font-size: 15px;
+        color: bisque;
+    }
+}
+@media screen and (max-width:480px) {
+    
+}
