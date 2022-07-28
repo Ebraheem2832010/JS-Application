@@ -1,0 +1,46 @@
+div{
+    background: linear-gradient(#73C6B6,#19c414);
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 10px;
+}
+div:hover{
+    background: linear-gradient(#ff7a7a,#4122ce);
+}
+
+
+p{
+    background: linear-gradient(#e2d516,#0dd3c9);
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    margin-top: 100px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 2s;
+}
+.active{
+    width: 100%;
+    transition: 2s;
+}
+.active::after{
+content: "You did it";
+}
+p:hover{
+    background: linear-gradient(#c141fc,#d43d3d);
+    color: aliceblue;
+}
+
+input{
+    padding: 0.8rem;
+    width: 50%;
+    background-color: rgb(141, 141, 143);
+    border: none;
+    border-radius: 10px;
+}
